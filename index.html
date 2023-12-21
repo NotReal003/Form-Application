@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #2E3748; /* 040720 orange background color */
+            background-color: #2E3748; /* colur */
             margin: 0;
             display: flex;
             align-items: center;
@@ -21,16 +21,16 @@
             padding: 40px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
             text-align: center;
-            transition: box-shadow 0.3s ease; /* Adding transition for box-shadow */
+            transition: box-shadow 0.3s ease; /* box-shadow */
         }
 
         h1 {
-            color: #F1F1F1; /* Dark red heading color */
+            color: #F1F1F1; /* heading color */
         }
 
         form {
             margin-top: 20px;
-            background-color: #2E3748; /* Background color for the form */
+            background-color: #2E3748; /* Background color form */
             padding: 20px; /* Adding padding to the form */
             border-radius: 8px; /* Adding border-radius to match the container */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle box-shadow */
@@ -39,7 +39,7 @@
         form label {
             display: block;
             margin-bottom: 8px;
-            color: #EEEFF1; /* Blue label color */
+            color: #EEEFF1; /* label colour */
         }
 
         input,
@@ -57,22 +57,22 @@
 
         input:hover,
         textarea:hover {
-            border-color: #3498db; /* Highlight border color on hover */
+            border-color: #3498db; /* Highlight border color */
         }
 
         button {
             width: 100%;
-            background-color: #FF8521; /* Dark red button color */
+            background-color: #FF8521; /* button color */
             color: #fff;
             padding: 12px;
             border: none;
             border-radius: 4px;
             cursor: pointer;
-            transition: background-color 0.3s ease; /* Adding transition for background-color */
+            transition: background-color 0.3s ease; /* transition for background-color */
         }
 
         button:hover {
-            background-color: #c0392b; /* Slightly darker red on hover */
+            background-color: #c0392b; /* on hover */
         }
 
         .contact-us {
@@ -130,7 +130,7 @@
 
     <script>
       function submitForm() {
-          // Check if there is a cookie for the last submission
+          // if there is a cookie for the last submission
           var lastSubmission = getCookie("lastSubmission");
 
           if (lastSubmission) {
@@ -138,7 +138,7 @@
               var currentTime = new Date().getTime();
               var hoursSinceLastSubmission = (currentTime - lastSubmissionTime) / (1000 * 60 * 60);
 
-              // Check if less than 24 hours have passed since the last submission
+              // if less than 24 hours have passed since the last submission
               if (hoursSinceLastSubmission < 24) {
                   alert("Hello There. You can only submit one application every 24 hours. Please wait for Guild managers to check your application or try again later.");
                   return;
@@ -146,7 +146,7 @@
           }
 
           // Assuming your webhook URL is stored in a variable named 'webhookUrl'
-          var webhookUrl = 'https://discord.com/api/webhooks/1187268835854786571/rlCI41lLD6dyCXTizfVHGBvi-vEW0sWxUT8FH6D87ma1eMVYdqeGsR7Vy5T7inoFu4xV';  // Replace this with your actual Discord webhook URL
+          var webhookUrl = 'https://discord.com/api/webhooks/1187268835854786571/rlCI41lLD6dyCXTizfVHGBvi-vEW0sWxUT8FH6D87ma1eMVYdqeGsR7Vy5T7inoFu4xV';  // (this is just demo) Replace this with your actual Discord webhook URL
 
           // Get form data
           var formData = {
@@ -190,14 +190,14 @@
           setCookie("lastSubmission", new Date().toUTCString(), 24);
       }
 
-        // Function to get the value of a cookie
+        // to get the value of a cookie
         function getCookie(name) {
             var value = "; " + document.cookie;
             var parts = value.split("; " + name + "=");
             if (parts.length === 2) return parts.pop().split(";").shift();
         }
 
-        // Function to set a cookie
+        // to set a cookie
         function setCookie(name, value, hours) {
             var expires = "";
             if (hours) {
@@ -209,7 +209,7 @@
         }
 
         document.addEventListener('DOMContentLoaded', function () {
-            // This event listener ensures that the code inside it runs
+            // Event
             // after the HTML content is fully loaded
 
             // Hide the form container initially
@@ -221,7 +221,7 @@
             // Set a timeout to simulate loading time (adjust as needed)
             setTimeout(function () {
                 showForm();
-            }, 2000); // 2000 milliseconds (2 seconds)
+            }, 9000); // 2000 milliseconds (2 seconds)
         });
 
         function showForm() {
