@@ -1,6 +1,6 @@
 __**Made by NotReal003**__
 
-# Under Testing.
+ • Create By [NotReal](discord:/users/1131271104590270606)
 
 # A Simple Application form.
 
@@ -8,7 +8,9 @@ __This application is used for creating applications for website and form data w
 
 # info
 
-**You can put your weebhook link in `index.html` .**
+• **You can put your weebhook link in** `index.html`
+
+• **Under Testing.**
 
 # Support
 
