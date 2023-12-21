@@ -1,6 +1,6 @@
 __**Made by NotReal003**__
 
- • Create By [NotReal](discord:/users/1131271104590270606)
+• Original Creator [NotReal](https://discord:/users/1131271104590270606)
 
  # Data collection
 
