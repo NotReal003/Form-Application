@@ -1,14 +1,13 @@
 __**Made by NotReal003**__
 
+# A Simple Application form.
+
+__The code is used for creating application website and form data will send to weebhook.__
 
  # Data collection
 
  • __No data is collected from the website.__
 ```Please do not share any Sensitive informations in form.```
-
-# A Simple Application form.
-
-__The code is used for creating application website and form data will send to weebhook.__
 
 # info
 
