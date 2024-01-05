@@ -19,4 +19,4 @@ __The code is used for creating application website and form data will send to w
 
 [Join our Discord Server](https://discord.gg/sqVBrMVQmp)
 
-__discord:/users/1131271104590270606__
+Ending
